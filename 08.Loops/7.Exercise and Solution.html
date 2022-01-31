@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //sum of the series of squre number
+
+        var n=prompt("how many number do you want to squre?");
+        n=parseInt(n);
+        var sum=0;
+        var series=1;
+        for(var i=1;i<=n;i++)
+        {
+            sum+=(i**2);
+
+            if(i==1){continue;}
+
+            series=series+"+"+(i**2);
+
+
+        }
+        console.log(sum);
+        console.log(series);
+        console.log(`${series} = ${sum} `);
+
+
+        //another way:
+
+        //sum of the series of squre
+
+var n = prompt("how many squre numbers u want to sum?");
+
+var number = parseInt(n);
+var result = `1+`;
+var sum = 1;
+
+for (var i = 2; i <= number; i++){
+    sum += i * i;
+
+    if (i == number) {
+        result += `${i * i}`;
+       // console.log(result);
+        break;
+
+    }
+    result += `${i * i}+`;
+
+
+    //console.log(result);
+
+}
+if (number == 1) {
+    console.log(`1=1`);
+
+}
+if (number != 1) {
+    console.log(`${result}=${sum}`);
+}
+
+//console.log(sum);
+
+
+
+
+
+
+
+
+
+       // from bohubrihi :
+       var n = parseInt(prompt("Enter the number of terms: "));
+var sum = 0;
+var series = "";
+
+for (var i = 1; i <= n; i++) {
+    sum += i ** 2;
+    series += (i ** 2).toString();
+    if (i == n) { continue; }
+    series += " + ";
+}
+
+console.log(`${series} = ${sum}`);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var student={
+            name:"ikramul",
+            id: "17-33814-1",
+            dept: "cse",
+            age:25,
+            birth: "16-th july",
+            village: "cp"
+        }
+        console.log(student);
+        console.log(student.name);
+        console.log(student["name"]);
+
+        student["village"]="chandpur";
+        student.nid=18734;
+        student.baperid=32545545542;
+        console.log(student);
+
+        
+        var hridoy={};
+        hridoy.name="ikramul";
+        console.log(hridoy);
+        hridoy.age="ikramul";
+        hridoy.gender="ikramul";
+        hridoy.occu="ikramul";
+        hridoy.pacu="ikramul";
+       
+        console.log(hridoy);
+        
+        delete student.baperid;
+
+    </script>
+</body>
+</html>

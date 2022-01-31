@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //empty array 
+        var x=[];
+        console.log(x);
+        x.push("hridoy","rafa","ismail");
+        console.log(x);
+
+        //how to convert string to array 
+        var y="Bangladesh"; 
+
+        var z= y.split("");
+
+        console.log(z);
+
+        var y="Bangladesh is a beautiful country"; 
+
+        var z=y.split("");
+
+        console.log(z);
+
+        var z=y.split("n");
+
+        console.log(z);
+
+        //array to string 
+
+        var z= z.toString();//uses comma after every array elemnt 
+        console.log(z);
+
+        var z= x.join("*");
+        console.log(z);
+
+        //added two arry 
+
+        var p=["hridoy","rafa"];
+        var q=["ismail","jesmin"];
+        var r=[1,2,3,4];
+        var z= p.concat(q,r);
+        console.log(z); 
+
+        z.sort();
+        console.log(z); 
+        z.reverse();
+        console.log(z); 
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+	"persons":[
+      
+      {"name":"hridoy","age":24,"hometown":"dhaka","married":false},
+      {"name":"mahmud","age":25,"hometown":"noakhali","married":false},
+      {"name":"rafa","age":2,"hometown":"chandpur","married":false},
+      {"name":"lucky","age":44,"hometown":"barishal","married":true}
+]
+
+}

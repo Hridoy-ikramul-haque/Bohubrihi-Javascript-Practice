@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="p"></h1>
+    <script>
+        var hridoy={
+            fname:"ikramul haque",
+            lname: "hridoy",
+            dep: "cse",
+            age: 23,
+            fullName: function(){
+                return `${this.fname} ${this.lname}`; 
+            }//tem literals not working; 
+        }
+
+        var x=hridoy.fullName();
+        console.log(hridoy.age);
+        console.log(x);
+        document.getElementById('p').innerHTML=hridoy.fullName();
+
+    </script>
+</body>
+</html>

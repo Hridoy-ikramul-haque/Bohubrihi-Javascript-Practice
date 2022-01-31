@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var x; //8 byte space 
+       x=123e5; 
+       x=123* 10**5; //same 
+       x=23/0 //infinity 
+       x=0x5444;//hex number 
+       x.toString();//convert decimel to string 
+       x=Infinity; 
+       x.toString(2)//save as binary 
+       x.toString(16)//save as hex 
+       x.toPrecision(2)//how many values show 
+       parseInt(x)//convert string to int . 
+       parseFloat(x)//covert with floating point 
+       isNaN(x)//check number or not return true or false
+       var p =Number(0x443); 
+       console.log(p); 
+
+
+
+
+
+//from bohubrihi 
+       var x;
+x = 3.141;
+x = 34;
+x = 123e5; // 123 * 10 ** 5
+x = 123e-5; // 123 * 10 ** -5
+
+// Numbers takes 64 bits,8 bytes 
+
+// + can be used for both addition and conatenation
+"34" + "45" // will be string
+34 + "45" // will be string
+"34" + 45 // will be string
+"The result is " + 34 + 45
+34 + 45 + "is the result"
+34 + 45 + "13"
+
+//Numeric Strings
+"25"-"5"
+"25"/"5" // result 10
+"25"*"5"
+"25"%"5"
+"25"+"5" //exception
+
+//Infinity
+var num = Infinity;
+25/0 // will get Infinity
+
+
+//Hexa Decimal Numbers
+var x = 0xBB
+
+x.toString() // Returns number as string
+
+x.toString(16);
+
+var x = 3.1416;
+x.toPrecision();
+x.toPrecision(2);
+x.toPrecision(4);
+x.toPrecision(6);
+
+var x = "123"
+parseInt(x);
+x = "123.45"
+parseFloat(x);
+
+isNaN(x);
+
+
+    </script>
+</body>
+</html>

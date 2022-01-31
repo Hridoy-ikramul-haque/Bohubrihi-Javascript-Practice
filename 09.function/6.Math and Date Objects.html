@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //javascript math ,date are object. 
+
+
+        //Math object 
+        let val; 
+        
+        //property
+        val=Math.PI; 
+        val=Math.E;
+        val=Math.LN2;
+        val=Math.SQRT2;
+
+
+        //Method
+        val=Math.round(3.4545);
+        val=Math.round(3.87);//nearest integer round 
+        val=Math.ceil(3.47);
+        val=Math.floor(3.87);
+        val=Math.trunc(3.99);
+        val=Math.pow(3,3);
+        val=Math.sqrt(64);
+        val=Math.max(3,534255,32432);
+        val=Math.min(3,534255,32432);
+        val=Math.ceil((Math.random()*10)+1);
+
+
+
+      //Date object
+        val=new Date();
+        val=new Date(1996,6,16);
+           //new Date(year,month,day,hour,minute);
+        val=new Date(1996,6,16).toString();
+        val=new Date('1997/7/16');
+        val=new Date(1997,6,16);
+        val =new Date();
+        val=Date.parse("july 16,1997");
+        val = new Date(val);
+
+
+        //get method 
+        valu=new Date();
+        val=valu.getDate();
+        val=valu.getMonth();
+        val=valu.getFullYear();
+        val=valu.getMinutes();
+        val=valu.getDay();
+        val=new Date();
+        val.setMonth(1);
+        val.setDate(23);
+        
+
+
+
+        console.log(val);
+     
+        
+    </script>
+</body>
+</html>

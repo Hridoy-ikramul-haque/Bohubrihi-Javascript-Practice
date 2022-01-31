@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[10,["hridoy","rafa"],54,65];
+        console.log(arr);
+        console.log(arr[1][0]);
+        var arr=[10,["hridoy",[3,4,5],"rafa"],54,65];
+        console.log(arr[1][1][1]);
+
+        var arr1=[1,2,3,[40,50,[{item1:100,item2:200}]]];
+
+        console.log(arr1[3][2][0]["item1"]);
+        console.log(arr1[3][2][0].item1)
+
+        var arr3=['ITEM1','ITEM2',{PROP1: "ITEM 1",PROP2:[1,2,["a","b"]]}];
+
+        console.log(arr3);
+
+        console.log(arr3[2]["PROP2"][2][1]); 
+
+
+    </script>
+</body>
+</html>

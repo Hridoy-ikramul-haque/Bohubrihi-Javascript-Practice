@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //array iteration using foreach
+        var foods=["mango","apple","bread","guava"];
+        var number=[1,32,31,2];
+        foods.forEach(function (){});
+        //1st parameter-> item/value.
+        //2nd parameter-> index 
+        //3rd parameter -> full array 
+        foods.forEach(function(value,index,full){console.log(value);console.log(index);console.log(full)});
+
+
+        //array iteration using mapping
+        //mapping creates a new array from existing array.
+
+        var foods=["mango","apple","bread","guava"];
+        var number=[1,32,31,2];
+        foods.forEach(function (){});
+
+
+        function item(x,y,z)
+        {
+            console.log(`item: ${x}`);
+            console.log(y);
+            console.log(z);
+        }
+        
+        let p=foods.map(item);
+        console.log(p); 
+
+        function pinku(x)
+        {
+            return `my love: ${x}`; 
+        }
+        let z=foods.map(pinku);
+        console.log(z); 
+
+
+        var number=[1,32,31,2];
+
+        function squre(x)
+        {
+            return x**2;
+        }
+
+        var re=number.map(squre);
+        console.log(re);
+
+    </script>
+</body>
+</html>
